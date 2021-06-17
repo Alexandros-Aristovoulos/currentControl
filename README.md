@@ -1,9 +1,11 @@
-# currentControl
+# Current Control
 ### Description
-A DHT22 temperature sensor was used to measure accurately the temperature in an expected range from -5 to
-+15 °C (from 268 to 288 K). An arduino board used the information from the sensor to control the state of a relay.
-Finally, an lcd panel displaying the current temperature reading from the sensor as well as the state of the relay
-was installed in order to ensure a smooth and user friendly experience.
+The goal of this project is to control an electrical current based on the temperature. This is achieved with the following:
+
+A DHT22 temperature sensor is used to measure accurately the temperature in an expected range from -5 to
++15 °C (from 268 to 288 K). An arduino board uses the information from the sensor to control the state of a relay.
+Finally, an lcd panel displays the current temperature reading from the sensor as well as the state of the relay in order to 
+ensure a smooth and user friendly experience.
 
 ### CONNECTING THE LCD
 
