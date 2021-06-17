@@ -24,7 +24,7 @@ to adjust the contrast.
 
 ### CONNECTING THE DHT22 (TEMPERATURE SENSOR)
 <p align="center">
-  <img src="images/dht22.jpg">
+  <img src="images/dht22.png">
 </p>
 
 The DHTxx sensors have four pins, VCC, GND, data pin and a not connected pin which has no usage. A pull-up resistor from 5K to 10K Ohms is required to keep 
