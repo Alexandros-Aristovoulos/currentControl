@@ -37,7 +37,7 @@ a breakout boards with built-in pull-up resistor and they have just 3 pins.
 </p>
 
 <p align="center">
-  <img src="images/relay.png">
+  <img src="images/relay1.png">
 </p>
 
 If you use an extension **meant for the EU**, like the one above but it has 3 wires, make sure you use the wires coloured with one colour.
