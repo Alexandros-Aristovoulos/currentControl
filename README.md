@@ -17,6 +17,18 @@ ensure a smooth and user friendly experience.
   <img src="images/arduino_with_lcd.png">
 </p>
 
+| LCD           | Arduino       |
+| ------------- |-------------  |
+| GND           | GND           | 
+| VCC           | 5V            |
+| Vo            | Potentiometer |
+| RS            | Pin 2         |
+| R/W           | GND           |
+| Enable        | Pin 3         | 
+| D4-D7         | Pins 4-7      | 
+| A (Anode)     | 5V            | 
+| K (Kathode)   | GND           | 
+
 The LCD’s registers from D4 to D7 will be connected to Arduino’s digital pins from 4 to 7. The Enable pin will be connected to pin number 3 
 and the RS pin will be connected to pin number 2. The R/W pin will be connected to Ground and the Vo pin will be connected to the potentiometer 
 to adjust the contrast.
@@ -26,6 +38,12 @@ to adjust the contrast.
 <p align="center">
   <img src="images/dht22.png">
 </p>
+
+| DHT22         | Arduino       |
+| ------------- | ------------- |
+| VCC           | 5V            | 
+| Data Pin      | Pin 8 in parrallel with 5k resistor and 5V (look at the picture)|
+| GND           | GND           | 
 
 The DHTxx sensors have four pins, VCC, GND, data pin and a not connected pin which has no usage. A pull-up resistor from 5K to 10K Ohms is required to keep 
 the data line high and in order to enable the communication between the sensor and the Arduino Board. There are some versions of these sensors that come with 
@@ -39,6 +57,11 @@ a breakout boards with built-in pull-up resistor and they have just 3 pins.
 <p align="center">
   <img src="images/relay1.png">
 </p>
+
+| Relay         | Arduino       |
+| ------------- | ------------- |
+| VCC           | 5V            | 
+| In1           | Pin 12        | 
 
 If you use an extension **meant for the EU**, like the one above but it has 3 wires, make sure you use the wires coloured with one colour.
 The wire with 2 colours is meant to be used for Ground.
